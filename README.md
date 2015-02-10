@@ -83,7 +83,7 @@ err := cmd.Kill(5 * time.Second)
 ```
 
 If you specified a log adapter when creating your GracefulCommand, Kill will write some
-diagnostic data to it during the Kill process. 
+diagnostic information to it during the Kill process. 
 
 ### License
 
