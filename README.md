@@ -18,7 +18,7 @@ import (
 cmd := gexec.GracefulCommand(exec.Command("python", "path/app.py"), nil)
 ```
 
-If you want to integate gexec with your logging system you can pass an adapter
+If you want to integrate gexec with your logging system you can pass an adapter
 for whatever logger you're using. It just has to conform to io.Writer
 
 ```go
