@@ -82,8 +82,8 @@ err := cmd.Kill(5 * time.Second)
 // err.Error() == "signal: killed"
 ```
 
-If you specify a log adapter in GracefulCommand, then Kill will write info to your
-adapter so you know what's going on. 
+If you specified a log adapter when creating your GracefulCommand, Kill will write some
+diagnostic data to it during the Kill process. 
 
 ### License
 
